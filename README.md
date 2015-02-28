@@ -1,5 +1,4 @@
 An angular module wrapper service for the Foxandxss angular-toasts
-==================================================================
 
 
 Install
