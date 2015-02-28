@@ -13,9 +13,9 @@ Include the following resources in your html file:
 
 ```html
     <link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css">
-    <script src="../bower_components/angular-animate/angular-animate.js"></script>
-    <script src="../bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
-    <script src="../lf-angular-toastr.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <script src="bower_components/lf-angular-toastr/lf-angular-toastr.js"></script>
 ```
 
 Add also to your Angular controller like below:
