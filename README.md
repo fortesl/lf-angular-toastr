@@ -1,3 +1,7 @@
+An angular module wrapper service for the Foxandxss angular-toasts
+==================================================================
+
+
 Install
 =======
 bower install lf-angular-toastr
