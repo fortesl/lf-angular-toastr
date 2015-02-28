@@ -39,8 +39,8 @@ Below are the available methods and examples on how to use them
     <li><b>clearToasts</b> removes all opened toasts
         <ul><li>Example: ```javascript lfToastrService.clearToasts();```</li></ul>
     </li>
-    <li><b>toastIsOpened</b> returns true if a toast is opened, returns false otherwise
-        <ul><li>Example: ```javascript if (lfToastrService.toastIsOpened() { ... do something ... }```</li></ul>
+    <li><b>toastIsOpened</b> returns true if a toast (defined by the message string) is opened, returns false otherwise
+        <ul><li>Example: ```javascript if (lfToastrService.toastIsOpened('I love toasts') { ... do something ... }```</li></ul>
     </li>
     <li><b>openToast</b> opens a toast, given a message string, a title string, and an optional config object
         <ul><li>Example: ```javascript lfToastrService.openToast('I love toasts', 'TOAST ME', {type: 'success'});```</li></ul>
