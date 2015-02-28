@@ -35,12 +35,12 @@ Below are the available methods and examples on how to use them
 <ol>
     <li><b>thereAreOpenedToasts</b> returns true if there are toasts, returns false otherwise
         <ul><li>Example: 
-            ```javascript if (lfToastrService.thereAreOpenedToasts() { ... do something ... }```
+            <code>if (lfToastrService.thereAreOpenedToasts() { ... do something ... }</code>
         </li></ul>
     </li>
     <li><b>clearToasts</b> removes all opened toasts
         <ul><li>Example: 
-            ```javascript lfToastrService.clearToasts();```
+            <code>lfToastrService.clearToasts();</code>
         </li></ul>
     </li>
     <li><b>toastIsOpened</b> returns true if a toast (defined by the message string) is opened, returns false otherwise
