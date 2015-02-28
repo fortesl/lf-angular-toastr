@@ -6,7 +6,7 @@
 (function () {
     'use strict';
 
-    angular.module('lf-toastr', ['toastr', 'ng-animate']).factory('lfToastrService', ['toastr', function (toastr) {
+    angular.module('lf-toastr', ['ngAnimate', 'toastr']).factory('lfToastrService', ['toastr', function (toastr) {
 
         var openedToasts = [];
         var toastDefaultOptions = {

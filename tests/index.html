@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../bower_components/angular-toastr/dist/angular-toastr.css">
+
+    <title>App</title>
+
+</head>
+
+<body ng-app="app">
+
+<div class="container" ng-controller="MyController as myCtrl">
+    <input type="button" value="ClickMe" ng-click="myCtrl.toggleToasts()"/>
+</div>
+
+
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-animate/angular-animate.js"></script>
+<script src="../bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+<script src="../lf-angular-toastr.js"></script>
+
+<script>
+    angular.module('app', ['lf-toastr']).controller('MyController', ['lfToastrService', function(lfToastrService) {
+        this.toggleToasts = function() {
+            if (lfToastrService.thereAreOpenedToasts()) {
+                lfToastrService.clearToasts();
+            }
+            else {
+                lfToastrService.openToast('La dulce vita', 'VIVA LA VIDA');
+            }
+        };
+    }]);
+</script>
+
+</body>
+
+</html>
