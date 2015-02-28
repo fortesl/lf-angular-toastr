@@ -45,23 +45,23 @@ Below are the available methods and examples on how to use them
     </li>
     <li><b>toastIsOpened</b> returns true if a toast (defined by the message string) is opened, returns false otherwise
         <ul><li>Example: 
-            ```javascript 
+            <code> 
             if (lfToastrService.toastIsOpened('I love toasts') { ... do something ... }
-            ```
+            </code>
         </li></ul>
     </li>
     <li><b>openToast</b> opens a toast, given a message string, a title string, and an optional config object
         <ul><li>Example: 
-            ```javascript 
+            <code> 
             lfToastrService.openToast('I love toasts', 'TOAST ME', {type: 'success'});
-            ```
+            </code>
         </li></ul>
     </li>
     <li><b>clearToast</b> removes a toast, given a message string
         <ul><li>Example: 
-            ```javascript 
+            <code> 
             lfToastrService.removeToast('I love toasts');
-            ```
+            </code>
         </li></ul>
     </li>
 </ol>
