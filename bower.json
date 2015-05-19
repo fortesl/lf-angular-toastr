@@ -4,7 +4,7 @@
   "authors": [
     "fortesl <fortesl@yahoo.com>"
   ],
-  "description": "An angular module wrapper service for Foxandxss angular-toasts",
+  "description": "An angular module wrapper service for Foxandxss angular-toastr",
   "main": "lf-toastr.js",
   "keywords": [
     "angular-toastr"
